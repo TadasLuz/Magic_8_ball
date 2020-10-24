@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8-Ball</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Magic 8-Ball</h1>
+        <p class="almighty">Please ask the almighty 8-Ball YES/NO question to reveal your future!</p>
+        <p class="info">Don't know what Magic 8-Ball is? No worries, click <span id="show"><i>Here</i></span> to read about it.</p>
+        <div class="about">
+            The Magic 8-Ball is a plastic sphere, made to look like an eight-ball, that is used for fortune-telling or seeking advice. It was invented in 1950 by Albert C. Carter and Abe Bookman. The user asks a yes–no question to the ball and then turns it over to reveal an answer in a window on the ball. The 20 possible answers inside a standard Magic 8-Ball are: 10 of the possible answers are affirmative, 5 are non-committal, and 5 are negative.
+        </div>
+        <form name="form1" onsubmit="return required()" required>
+            <input type="text" name="text1" id="question" placeholder="YES/NO question*"><br>
+            <input type="submit" id="button" value="ASK!">
+        </form>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
